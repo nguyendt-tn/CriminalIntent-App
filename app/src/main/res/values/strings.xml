@@ -1,0 +1,51 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">CriminalIntent</string>
+
+    <!-- Crime detail values -->
+    <string name="crime_title_hint">Enter a title for the crime</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="requires_police_label">Requires Police</string>
+    <string name="crime_photo_button_description">Take photo of crime scene</string>
+    <string name="crime_photo_no_image_description">Crime scene photo (not set)</string>
+    <string name="crime_photo_image_description">Crime scene photo (set)</string>
+
+    <!-- Date and Time picker titles -->
+    <string name="date_picker_title">Date of crime:</string>
+    <string name="time_picker_title">Time of crime:</string>
+
+    <!-- Menu strings -->
+    <string name="new_crime">New Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$d crime</item>
+        <item quantity="other">%1$d crimes</item>
+    </plurals>
+
+    <!-- Crime Pager Buttons -->
+    <string name="crime_pager_first">First</string>
+    <string name="crime_pager_last">Last</string>
+
+    <!-- String for button to add crime -->
+    <string name="report_crime_instruction">There are no crimes yet. To report a crime, please add crime.</string>
+    <string name="add_crime">Add Crime</string>
+
+    <!-- String for button to report suspect and crime -->
+    <string name="crime_suspect_text">Choose Suspect</string>
+    <string name="call_suspect_text">Call Suspect</string>
+    <string name="crime_report_text">Send Crime Report</string>
+
+    <!-- Crime Report Details -->
+    <string name="crime_report">%1$s! The crime was discovered on %2$s. %3$s, %4$s, and %5$s</string>
+    <string name="crime_report_subject">Criminal Intent Crime Report</string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_requires_police">the case requires police</string>
+    <string name="crime_report_no_police">the case doesn\'t require police</string>
+    <string name="crime_report_suspect">the suspect is %s.</string>
+    <string name="crime_report_no_suspect">there is no suspect.</string>
+    <string name="send_report">Send crime report via</string>
+</resources>
